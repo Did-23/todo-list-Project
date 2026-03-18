@@ -7,6 +7,28 @@
 		<link rel="stylesheet" href="./dist/css/main.css" />
 	</head>
 	<body>
+		<div class="todo">
+			<h2 class="todo__title">To Do List</h2>
+
+			<form class="todo__form">
+				<input
+					class="todo__input"
+					id="todo-input"
+					type="text"
+					placeholder="Add a new task..."
+				/>
+				<button class="todo__btn" id="todo-btn" type="button">Add</button>
+			</form>
+
+			<div class="todo__row">
+				<p class="todo__count" id="todo-count">Total Tasks: 0</p>
+				<button class="todo__delete-all" id="delete-all" href="#">
+					Delete All
+				</button>
+			</div>
+
+			<ul class="todo__list" id="todo-list"></ul>
+		</div>
 		<script src="script/index.js"></script>
 	</body>
 </html>
