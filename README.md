@@ -39,8 +39,8 @@
 ---
 
 ## ▶️ Қалай іске қосу
-1. Репозиторийді клондау:  
 ```bash
+1. Репозиторийді клондау:  
 git clone https://github.com/Did-23/todo-list-Project.git
 2. Жоба папкасына өту:
    cd todo-list-Project
