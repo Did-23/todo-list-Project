@@ -110,4 +110,97 @@ legend {
 
 input[type=file] {
   max-width: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.todo {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+}
+.todo__title {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.todo__form {
+  margin-bottom: 24px;
+}
+.todo__input {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 12px;
+  margin-right: 15px;
+  width: 285px;
+}
+.todo__btn {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.todo__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.todo__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.todo__delete-btn {
+  margin-left: auto;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+}
+.todo__span {
+  text-transform: capitalize;
+}
+.todo__checkbox {
+  margin-right: 10px;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.todo__completed {
+  text-decoration: line-through;
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
